@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #E0DD27;
+}
+h1{
+    color:#661941;
+    font-weight: bold;
+    font-family: cursive;
+}
+.figura-uva{
+    width:120px;
+    height:120px;
+    overflow: hidden;
+    border:solid 3px antiquewhite;
+    border-radius:50%;
+}
+img{
+    width:100%;
+    
+}
+.container{
+    border:solid 3px #661941;
+    border-radius:20px;
+    padding:30px;
+    margin:30px;
+    background-color: #661941;
+    color:antiquewhite;
+        
+}
