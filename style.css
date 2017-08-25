@@ -10,23 +10,54 @@ h1{
     font-weight: bold;
     font-family: cursive;
 }
+.media{
+    position: relative;
+}
+a{
+     position: absolute;
+    top:0;
+    left:0px;
+}
 .figura-uva{
     width:120px;
     height:120px;
     overflow: hidden;
-    border:solid 3px antiquewhite;
+    border:solid 3px #E0DD27;
     border-radius:50%;
+ 
+    
 }
 img{
     width:100%;
     
 }
 .container{
+    width:70%;
+    margin-top: 70px;
     border:solid 3px #661941;
     border-radius:20px;
-    padding:30px;
-    margin:30px;
+    padding:10px;
+    padding-top: 50px;
+    
+    
+ 
+/*    margin:30px;*/
     background-color: #661941;
     color:antiquewhite;
+    border:solid 3px antiquewhite ;
+    box-shadow:10px 10px 20px 10px maroon;
         
 }
+h4, p{
+    margin-left:120px;
+}
+.btn{
+    color:bisque;
+    background-color:#661941;
+    border:solid 2px #E0DD27;
+    box-shadow: 2px 2px 5px bisque;
+    margin:10px;
+    margin-left: 120px;
+    
+}
+
